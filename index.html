@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title goes here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="passwordDisplay">Your Password: </h1>
+    <button id="generateBtn">Generate</button><br><br>
+
+    <div id="settingsContainer">
+        <label for="passwordLenght">Password lenght: </label>
+        <input type="number" class="passwordSettings" id="passwordLenght" placeholder="Input desired password lenght" min="1" value="15"></input><br>
+
+        <input type="checkbox" class="passwordSettings" id="includeLowercaseCB" checked>Include Lowercase Characters</input><br>
+        <input type="checkbox" class="passwordSettings" id="includeUppercaseCB" checked>Include Uppercase Characters</input><br>
+        <input type="checkbox" class="passwordSettings" id="includeNumberCB" checked>Include Number Characters</input><br>
+        <input type="checkbox" class="passwordSettings" id="includeSymbolsCB" checked>Include Special Characters</input><br>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
